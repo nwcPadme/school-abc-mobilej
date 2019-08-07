@@ -1,0 +1,42 @@
+	<ion-view view-title=" Dashboard" hide-nav-bar="false" >
+		<!-- content -->
+		<ion-content delegate-handle="top" lazy-scroll  id="page-dashboard" class=" page-dashboard">
+		
+		<div class="dashboard-panel">
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light positive-bg ink" ng-href="#/school_abc_mobile/home_screen" >
+					<i class="icon ion-android-home" ></i>
+					<p>{{ "Dashboard" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light positive-900-bg ink"  ng-href="#/school_abc_mobile/library" >
+					<i class="icon ion-ios-book" ></i>
+					<p>{{ "Библиотека" | translate }}</p>
+				</a>
+				<a class="col-33 no-border light calm-bg ink"  ng-href="#/school_abc_mobile/schedule" >
+					<i class="icon ion-briefcase" ></i>
+					<p>{{ "Расписание" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+			<!-- row -->
+			<div class="row">
+				<a class="col-33 no-border light calm-900-bg ink"  ng-href="#/school_abc_mobile/teacher" >
+					<i class="icon ion-university" ></i>
+					<p>{{ "Учитебя" | translate }}</p>
+				</a>
+			</div>
+			<!-- ./row -->
+			
+
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+
+		</ion-content>
+		<!-- ./content -->
+	</ion-view>
